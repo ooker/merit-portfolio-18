@@ -1,0 +1,39 @@
+.m-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background: linear-gradient(to bottom, $m-col__red--darker 0%, $m-col__red--lighter 50%,$m-col__red--lighter 51%,$m-col__red 100%);
+}
+.m-hero__heading {
+    padding: 0 2vw 2vh 2vw;
+    margin-bottom: 3vh;
+    width: 100%;
+    font-family: $m-fontSpecial;
+    line-height: 1;
+    color: $white;
+    font-size: 12vw;
+    text-align: center;
+    border-bottom: 0.3vmin solid rgba(255,255,255,0.2);
+    text-shadow: 0 0.4vw 0.06vw rgba(0, 0, 0, 0.3);
+    @include breakpoint(medium){
+        font-size: 8vw;
+    }
+}
+.m-hero__subheading {
+    //flex: 0 1 rem-calc(960);
+    max-width: rem-calc(960);
+    padding: 0 4vw;
+    font-size: rem-calc(16);
+    font-style: italic;
+    text-align: center;
+    font-family: $m-font;
+
+    @include breakpoint(medium){
+        font-size: rem-calc(20);
+    }
+    @include breakpoint(large){
+        font-size: rem-calc(22);
+    }
+}

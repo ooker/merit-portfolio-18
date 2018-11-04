@@ -1,0 +1,75 @@
+[
+    {
+        "heading": "CV",
+        "file" : "cv.html"
+    },
+
+    {
+        "heading": "Eneseanalüüs",
+        "file" : "eneseanalyys.html"
+    },
+    {
+        "heading": "Õpitüübid",
+        "file" : "oppijate-tyybid.html"
+    },
+    {
+        "heading": "Videod õppetööst",
+        "file" : "videod-oppetoost.html"
+    },
+    {
+        "heading": "Täiendkoolitused",
+        "file" : "taiendkoolitused.html"
+    },
+    {
+        "heading": "Õpetajate võrgustik",
+        "file" : "opetajate-vorgustik.html"
+    },
+    {
+        "heading": "Õppevara",
+        "file" : "oppevara.html"
+    },
+    {
+        "heading": "Õpilassaavutused",
+        "file" : "opilassaavutused.html"
+    },
+    {
+        "heading": "Haridusprojektid",
+        "file" : "haridusprojektid.html"
+    },
+    {
+        "heading": "Töödokumentatsioon",
+        "file" : "toodokumentatsioon.html"
+    },
+    {
+        "heading": "Meedia",
+        "file" : "meedia.html"
+    },
+    {
+        "heading": "Koolitustöö ja nõustamine",
+        "file" : "koolitustoo.html"
+    },
+    {
+        "heading": "Pedagoogiline mõte",
+        "file" : "pedagoogiline-mote.html"
+    },
+    {
+        "heading": "Tõendusmaterjalid",
+        "file" : "toendusmaterjalid.html"
+    },
+    {
+        "heading": "Õpikeskkond",
+        "file" : "opikeskkond.html"
+    },
+    {
+        "heading": "Logiraamat",
+        "file" : "logiraamat.html"
+    },
+    {
+        "heading": "Isiklik tunnustus",
+        "file" : "isiklikud-saavutused.html"
+    },
+    {
+        "heading": "Kogukonnategevus ja hobid",
+        "file" : "kogukonnategevus-ja-hobid.html"
+    }
+]

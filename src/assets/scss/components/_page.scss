@@ -1,0 +1,116 @@
+h4 {
+    margin-bottom: 3vh;
+}
+
+.m-quote {
+    font-family: $m-fontQuote;
+    font-style: italic;
+    background: hsl(56, 100%, 87%);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 2px 2px 0px hsla(0, 0%, 0%, 0.2);
+}
+
+.row {
+    
+    &.m-contentRow {
+        .columns {
+            
+            padding:0;
+            
+            &:last-of-type {
+                padding-top: rem-calc(16);
+            }
+            
+            @include breakpoint(medium){
+                &:first-of-type {
+                    padding-left: 0;
+                    padding-right: rem-calc(16);
+                }
+                &:last-of-type {
+                    padding-right: 0;
+                    padding-top: 0;
+                }
+            }
+        }   
+    }    
+}
+
+figure {
+    margin:0;
+    figcaption {
+        font-size: 80%;
+        color: $m-col__blue-grey--800;
+        padding: 5vh 0; 
+        text-align: center;
+        border-top: 1px dotted grey;
+    }
+}
+
+.m-cv__dl {
+    list-style: none;
+    margin-bottom: rem-calc(30);
+    margin-top: rem-calc(30);
+    
+    li {
+        display: flex;
+        //flex-direction: column;
+        align-items: flex-start;
+        
+        padding-bottom: 4vh;
+        dt {
+            flex:1 0 25vw;
+            white-space: nowrap;
+            //text-align: right;
+            //padding-right: 1vw;
+            color: $m-col__blue-grey--700;
+            margin:0;
+            line-height: 1.4;
+            border-bottom: 1px solid #E0E0E0;
+        }
+        dd {
+            flex:0 1 75vw;
+            padding-left: 3vw;
+            line-height: 1.4;
+        }
+    }
+    
+    @include breakpoint(medium){
+        li {
+            //flex-direction: row;
+            dt {
+                flex:1 0 16vw;
+                //padding-right: 1vw;
+            }
+            dd {
+                flex: 0 1 84vw;
+            }
+        }
+    }
+    
+}
+
+.m-link--long {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+
+.m-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.m-gallery__item {
+    flex:1 0 100%;
+    @include breakpoint(medium) {
+        flex: 1 0 50%;    
+    }
+    @include breakpoint(large) {
+        flex: 1 0 33.333%;    
+    }
+}
+

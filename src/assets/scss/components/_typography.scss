@@ -1,0 +1,11 @@
+$m-font: 'Roboto Condensed', sans-serif;
+$m-fontQuote: 'Noto Serif', serif;
+$m-fontSpecial: 'Oswald', serif;
+
+body {
+    font-family: $m-font;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $m-font;
+}

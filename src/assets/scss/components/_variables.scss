@@ -1,0 +1,19 @@
+
+$m-col__red: rgb(211, 47, 47); //#D32F2F
+$m-col__red--lighter: rgb(244, 67, 54); //#F44336
+$m-col__red--darker: rgb(183, 28, 28); //#B71C1C
+$m-col__green: rgb(205, 220, 57); //#CDDC39
+$m-col__blue: rgb(129, 212, 250); //#81D4FA
+$m-col__orange: rgb(255, 183, 77); //#FFB74D
+$m-col__purple: rgb(206, 147, 216); //#CE93D8
+$m-col__yellow: rgb(255, 202, 40); //#FFCA28
+$m-col__blue-grey--900: rgb(38, 50, 56); //#263238
+$m-col__blue-grey--800: rgb(55, 71, 79); //#37474F
+$m-col__blue-grey--700: rgb(69, 90, 100); ///#455A64
+
+.m-col__blue-grey--800 {
+    color: $m-col__blue-grey--800;
+}
+.m-col__blue-grey--700 {
+    color: $m-col__blue-grey--700;
+}

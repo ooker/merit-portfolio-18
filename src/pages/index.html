@@ -1,0 +1,61 @@
+<!-- test -->
+<section class="m-hero">
+    <h1 class="m-hero__heading">Merit Karise portfoolio</h1>
+    <h3 class="m-hero__subheading">
+      Parim amet on aidata noorel inimesel olla maailma suhtes avatud ja uudishimulik, januneda uute teadmiste ja oskuste järele, tunda, et tema panus isiksuse, töötaja ja kodanikuna on Eestile ja maailmale&nbsp;oluline.
+    </h3>
+</section>
+
+<section class="m-content">
+  <div class="m-cards">
+    {{#each cards}}
+    <a class="m-card" data-file="{{ this.file }}" href="#">
+      <div class="m-card__number"><span>{{counter @index}}</span></div>
+      <div class="m-card__info">
+        <h3 class="m-card__infoHeading">{{ this.heading }}</h3>
+      </div>
+    </a>
+    {{/each}}
+  </div>
+</section>
+
+<div class="full reveal" id="m-card__modal"
+  data-reveal
+  data-close-on-click="false"
+  data-multiple-opened="true"
+  data-deep-link="true"
+  data-update-history="true"
+  style="z-index:1001">
+    <div class="m-modal__wrapper">
+
+      <div class="m-modal__content" id="m-card__modalContent"></div>
+
+      <div class="m-modal__sidebar">
+        <button class="m-modal__close" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&#x2716;</span>
+        </button>
+      </div>
+      <button class="m-modal__close m-modal__close--medium" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#x2716;</span>
+      </button>
+    </div>
+</div>
+
+
+<div class="medium reveal" id="m-img__modal" data-reveal data-close-on-click="true" data-multiple-opened="true">
+    <div class="m-modal__wrapper">
+
+        <div class="m-modal__content" id="m-img__modalContent"></div>
+
+        <div class="m-modal__sidebar">
+            <button class="m-modal__close" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&#x2716;</span>
+            </button>
+        </div>
+
+        <button class="m-modal__close m-modal__close--medium" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&#x2716;</span>
+        </button>
+
+    </div>
+</div>
