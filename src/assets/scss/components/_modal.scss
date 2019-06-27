@@ -69,6 +69,10 @@
     }
 }
 
+.m-modal__close:focus {
+    outline: none;
+}
+
 .m-modal__close--medium {
     display:none;
     position: fixed;
